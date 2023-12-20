@@ -1,0 +1,52 @@
+--- Folder Structure ---
+[.git]
+    ├── HEAD
+    ├── config
+    ├── description
+    ├── [hooks]
+        ├── applypatch-msg.sample
+        ├── commit-msg.sample
+        ├── fsmonitor-watchman.sample
+        ├── post-update.sample
+        ├── pre-applypatch.sample
+        ├── pre-commit.sample
+        ├── pre-merge-commit.sample
+        ├── pre-push.sample
+        ├── pre-rebase.sample
+        ├── pre-receive.sample
+        ├── prepare-commit-msg.sample
+        ├── push-to-checkout.sample
+        ├── sendemail-validate.sample
+        └── update.sample
+    ├── [info]
+        └── exclude
+    ├── [objects]
+        ├── [info]
+        └── [pack]
+    └── [refs]
+        ├── [heads]
+        └── [tags]
+.gitignore
+README.md
+app.vue
+[components]
+    └── RichTextBlocks.vue
+[docs]
+    └── .project_structure_filter
+nuxt.config.ts
+package-lock.json
+package.json
+[pages]
+    ├── index.vue
+    └── [posts]
+        ├── _id.vue
+        └── index.vue
+[public]
+    └── favicon.ico
+[server]
+    └── tsconfig.json
+strapiRichText.ts
+tailwind.config.js
+tsconfig.json
+
+--- File Contents ---
